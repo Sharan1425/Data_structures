@@ -1,0 +1,26 @@
+-------------------Linked List-------------------
+    -- Linked List has two main benefits over an array/list
+        1. you don't need to pre-allocate space.
+        2. Insert is easier.
+* It is used to Insert element at the begining of the list - O(1)
+* It is used to Delete element at the begining of the list - O(1)
+* Linked List Traversal = O(n)
+* Accessing element by value = O(n)
+
+* Insert/Delete element at the end -- O(n)
+
+
+Single Linked List
+    * Its refering only next element
+
+
+Double Linked List
+    * Its refering both previous and next element
+    * Linked List Traversal is very easy in Double Linked List
+
+
+                        Array/List    Linked List
+Indexing                O(1)          O(n)
+Insert/Delete at start  O(n)          O(1)
+Insert/Delete at end    O(1)          O(n) 
+Insert in middle        O(n)          O(n)            

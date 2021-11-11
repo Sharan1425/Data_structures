@@ -1,0 +1,25 @@
+------------------Binary Tree------------------
+* Every node has at most two child nodes
+* Binary Search Tree or BST
+* elements are unique.
+* duplicates elements are not allowed in BST.
+
+* Two Approaches 
+    - Breadth First Search
+    - Depth First Search
+        * in order traversal
+        * pre order traversal
+        * post order traversal
+
+
+Seach Complexity in BST
+    * every iteration we reduce search space by 1/2.
+    * n=8       8->4->2->1
+    * 3 iterations
+    * log2 8 = 3
+    * search Complexity = O(log n)
+
+Deleting nodes
+    - delete the nodes with no child
+    - delete node one child
+    - delete node with two children

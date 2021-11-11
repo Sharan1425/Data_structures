@@ -1,0 +1,7 @@
+---------------------Data Structure---------------------
+* Data Structure are building blocks or raw material for any software developer.
+
+Data Structure       Python                Java                         C++
+    Array             List                 Native Array, ArrayList      Native Array, std::Vector
+    Hash Table        Dictionary           HashMap, LinkedHashMap       std::map
+    Linked List       Not Available        Linked List                  std::list

@@ -1,0 +1,13 @@
+-------------------Stack-------------------
+* Scenario of where stack use benefiary.
+    - to navigate to the other tab and when click back the previous page time 
+    we use this concept called stack.
+    eg. https://www.com/home , https://www.com/contact, https://www.com/account
+
+    - push/pop element: O(1)
+    - search element by value: O(n)
+
+            Class                   Code Sample
+Python      list                    stk = deque()
+            collections.deque       stk.append(5)
+            queue.LifoQueue         stk.append(9) # return 89

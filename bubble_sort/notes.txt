@@ -1,0 +1,4 @@
+--------------------------Bubble Sort--------------------------
+-   bubble pop from bottom to top like numbers are sorting from lower to higher order.
+-   time complexity O(n^2)
+-   space complexity O(1)

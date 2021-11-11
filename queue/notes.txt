@@ -1,0 +1,16 @@
+------------------------Queue------------------------
+-   First In First Out
+-   list is used for queue
+-   appenleft is used in queue.
+    eg. from collections import deque
+    q = deque()
+    q.appendleft(4)
+    q.appendleft(5)
+
+
+            class                       code sample
+---------------------------------------------------------------
+python      list                        q = deque()
+            collections.deque           q.appendLeft(5)
+            queue.LifoQueue             q.appendLeft(9)
+                                        q.pop()  # return 5

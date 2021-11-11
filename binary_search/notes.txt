@@ -1,0 +1,11 @@
+-----------------------Binary Search-----------------------
+* step 1 --> sort the list
+* step 2 --> take middle num of the list
+* step 3 --> if middle num is greater than given number, eliminate the right side of the element and go to left side of the list 
+* step 4 --> if middle num is less than given number, eliminate the left side of the element go to rigth side of the list
+
+Time Complexity in Binary Search
+    - Log(n) Best case scenario for searching the number
+
+Time Complexity in Linear Search
+    - O(n) worst case scenario for searching the number.

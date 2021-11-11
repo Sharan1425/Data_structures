@@ -1,0 +1,31 @@
+-----------------Hash Table/Map-----------------
+* In Python Hash Map implement is Dictionary.
+
+Hash Function
+    - i'm showing how to calculate the hash Function
+    eg. "march 6" = 310
+        key          value
+        Ascii code
+        m   109
+        a   97
+        r   114
+        c   99
+        h   104
+            32
+        6   54
+    -------------
+    sum     609
+    MOD(609,10) --> 9 (where 10 is size of array)
+
+    - look up by key is O(1) on average
+    - delete/insert is O(1) on average
+
+Dictionary
+    - Dictionary is implement hash tables.
+
+Collitions in Hash Map
+    -   eg. obj["march 6"] = 120    hash map is 9
+    -   obj["march 17"] = 459   hash map is 9
+    -   obj["march 6"] its return 459 
+    -   this is the collitions occur in hash map
+

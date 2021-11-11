@@ -1,0 +1,52 @@
+-----------------Big O Notation-----------------
+* It is used to measure how running time or space requirements for your program grow as input size grow.
+
+* Measuring running time growth:
+    - time complexity
+* Measuring space growth:
+    - space complexity
+
+
+i) O(n)
+    eg. num = [2,3,4,5]
+        def get_square_num(num)
+            returns [4,9,16,25]
+
+        For this time complexity is Order of n O(n)
+
+ii) O(1)
+    eg. def find_first_pe(prices, eps, index):
+            pe = prices[index]/eps[index]
+            return pe
+
+    for this time complexity is Order of 1 O(1)
+
+iii) O(n^2)
+    eg. num = [3,6,2,4,3,6,8,9]
+        duplicate = None
+        for i in range(len(num)):
+            for j in range(i+1, len(num)):
+                if num[i] == num[j]:
+                    duplicate = num[i]
+                    break
+        for i in range(len(num)):
+            if num[i] == duplicate
+                print(i)
+    
+    for this time complexity is Order of n square  O(n^2)
+
+    Binary Search Big O Notation
+
+        eg. [4,9,15,21,34,57,68,91]  --- 8 elements
+            - Iteration 1 = n/2
+            - Iteration 2 = (n/2)/2= n/2^2
+            - Iteration 3 = (n/2^2)/2 = n/2^3
+            - Iteration k = n/2^k
+        Iteration k = n/2^k
+        1 = n/2^k
+        n = 2^k
+        log2 n = log2 2^k
+        k = logn --> O(log n)
+
+    for this time complexity is O(log n)
+        k = O(log n) --> log2 8 --> log2 2^3 --> 3*log2 --> 3 Iterations
